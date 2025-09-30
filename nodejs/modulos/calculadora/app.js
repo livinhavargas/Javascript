@@ -1,5 +1,5 @@
- import {somar, subtrair, multiplicar, dividir} from 'funcoes_matematicas.js'
- import * as  calculaIdade from './calcula_idade.js'
+ import {somar, subtrair, multiplicar, dividir} from './modulos/calculadora/operacoes.js';
+ import * as  calculaIdade from '.modulos/calculadora/idade.js'
 // Exemplo de uso das funções
 console.log('Soma:',somar(2, 3));
 console.log('Subtração:', subtrair(5, 2));
