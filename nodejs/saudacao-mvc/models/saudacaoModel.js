@@ -12,7 +12,7 @@ module.exports = {
       faixaEtaria = "idoso";
     }
 
-    return `Olá, ${nome}! Você é um(a) ${faixaEtaria} e é do genêro ${genero}`;
+    return `Olá, ${nome}! Você é um(a) ${faixaEtaria} e é do genêro ${genero}. Bem vindo(a)!`;
   }
 
 };
