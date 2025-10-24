@@ -1,17 +1,14 @@
 module.exports = {
-    verificaLogin: (nome, email, senha ) => {
+    verificaLogin: (email, senha ) => {
     let emailSenha;
 
-    if (email = livialinda@gmail.com) {
-    } and (senha = livia17) {
+    if (email === "livialinda@gmail.com" && senha === "livia17") {
     emailSenha = "Válido";
-    } else if (idade < 60) {
-      faixaEtaria = "adulto";
     } else {
-      faixaEtaria = "idoso";
+      emailSenha = "Inválido";
     }
 
-    return `Olá, ${nome}! Você é um(a) ${faixaEtaria} e é do genêro ${genero}. Bem vindo(a)!`;
+    return emailSenha `Olá! Seu login está ${emailSenha}`;
   }
 
 };
