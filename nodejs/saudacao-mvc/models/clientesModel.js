@@ -1,14 +1,15 @@
 module.exports = {
+
     verificaLogin: (email, senha ) => {
-    let emailSenha;
+    let acesso;
 
     if (email === "livialinda@gmail.com" && senha === "livia17") {
-    emailSenha = "Válido";
+    acesso= "Válido";
     } else {
-      emailSenha = "Inválido";
+      acesso= "Inválido";
     }
 
-    return emailSenha `Olá! Seu login está ${emailSenha}`;
+    return `Olá! Seu login está ${acesso}`;
   }
 
 };
